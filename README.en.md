@@ -79,9 +79,11 @@ I aim to turn technical experiments into tools that are **well designed, reprodu
 
 | Project | Focus |
 | :--- | :--- |
-| [RX580 Linux Stability Fix](https://github.com/silviodarko/rx580-linux-stability-fix) | Tools and guides for investigating AMD GPU stability on Linux. |
-| [Scroll Lock wlroots Fix](https://github.com/silviodarko/scrolllock-wlroots-fix) | Python/systemd keyboard LED automation on wlroots desktops. |
+| [RX580 Linux Stability Fix](https://github.com/silviodarko/rx580-linux-stability-fix) | Experimental Linux AMD GPU power-management lab and documentation. |
+| [Scroll Lock wlroots Fix](https://github.com/silviodarko/scrolllock-wlroots-fix) | Experimental Python/libevdev keyboard LED workaround with systemd sample. |
 | [Flask API](https://github.com/silviodarko/API.Flask.COLAB) | Python/Flask HTTP API experiment with JSON data. |
+
+**[Explore my curated engineering portfolio](./PORTFOLIO.en.md)** · Selected projects, technical context and maturity.
 
 ### GitHub achievements
 
