@@ -1,3 +1,5 @@
+<p align="right"><strong>Português</strong> · <a href="./README.en.md">English</a></p>
+
 <p align="center">
   <img src="./assets/profile-header.svg" width="100%" alt="Sílvio Henrique | Founder & Systems Builder | SilvOS" />
 </p>
