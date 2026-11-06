@@ -75,13 +75,15 @@ Meu objetivo é transformar experimentação técnica em produtos **bem desenhad
 
 <sub>Stack composta por tecnologias em uso, integração ou estudo nos projetos. O nível de maturidade varia por componente.</sub>
 
-### Selected public work
+### Projetos públicos em destaque
 
 | Projeto | Foco |
 | :--- | :--- |
-| [RX580 Linux Stability Fix](https://github.com/silviodarko/rx580-linux-stability-fix) | Ferramentas e documentação para investigar estabilidade de GPUs AMD no Linux. |
-| [Scroll Lock wlroots Fix](https://github.com/silviodarko/scrolllock-wlroots-fix) | Automação de LED de teclado com Python e systemd para ambientes wlroots. |
+| [RX580 Linux Stability Fix](https://github.com/silviodarko/rx580-linux-stability-fix) | Laboratório experimental de gerenciamento de energia e diagnóstico de GPUs AMD no Linux. |
+| [Scroll Lock wlroots Fix](https://github.com/silviodarko/scrolllock-wlroots-fix) | Workaround experimental de LED de teclado com Python, libevdev e systemd. |
 | [Flask API](https://github.com/silviodarko/API.Flask.COLAB) | Experimento de API HTTP com Python, Flask e dados JSON. |
+
+**[Explorar meu portfólio técnico completo](./PORTFOLIO.md)** · Projetos selecionados, contexto e maturidade de cada um.
 
 ### GitHub achievements
 
