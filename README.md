@@ -47,6 +47,8 @@ Meu objetivo é transformar experimentação técnica em produtos **bem desenhad
 
 **Status do projeto:** desenvolvimento ativo / *pre-release*. A experiência já é utilizada no meu ambiente pessoal, mas **o SilvOS ainda não possui ISO pública ou lançamento estável**. O repositório de desenvolvimento permanece privado nesta fase. Algumas integrações e aceleração por GPU estão em pesquisa e validação.
 
+**Site oficial (GitHub Pages):** [ver os arquivos da landing page](./docs/index.html) · publicação visual em preparação.
+
 **Roadmap público:** [SilvOS development milestones](./SILVOS_ROADMAP.md) · versão resumida, sem detalhes privados.
 
 ### Technology stack
