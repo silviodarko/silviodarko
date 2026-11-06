@@ -47,6 +47,8 @@ I aim to turn technical experiments into tools that are **well designed, reprodu
 
 **Project status:** actively developed, *pre-release*. The desktop is used on my personal machine, but **SilvOS does not yet have a public ISO or a stable release**. The development repository is private at this stage. Some integrations and GPU acceleration are still under evaluation.
 
+**Official site (GitHub Pages):** [view the landing page source](./docs/index.html) · visual deployment in preparation.
+
 **Public roadmap:** [SilvOS development milestones](./SILVOS_ROADMAP.md) · high-level plans, no private implementation details.
 
 ### Technology stack
