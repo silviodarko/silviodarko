@@ -12,7 +12,7 @@
 <p align="center">
   <a href="https://www.linkedin.com/in/s%C3%ADlvio-henrique-faria-b23a1b165/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Connect-1A2634?style=flat-square&logo=linkedin&logoColor=white"/></a>
   <a href="https://github.com/silviodarko?tab=repositories"><img alt="Projects" src="https://img.shields.io/badge/GitHub-Projects-1A2634?style=flat-square&logo=github&logoColor=white"/></a>
-  <a href="https://github.com/silviodarko?tab=achievements"><img alt="GitHub Achievements" src="https://img.shields.io/badge/GitHub-Achievements-C9A86A?style=flat-square&logo=github&logoColor=101820"/></a>
+  <a href="https://github.com/silviodarko?tab=achievements"><img alt="GitHub Achievements" src="https://img.shields.io/badge/GitHub-Achievements-66BDE8?style=flat-square&logo=github&logoColor=101820"/></a>
 </p>
 
 ---
@@ -43,9 +43,11 @@ I aim to turn technical experiments into tools that are **well designed, reprodu
 - **A distinct Linux desktop experience**, integrating Wayland composition, visual customization, and productivity applications.
 - **An actually useful local assistant** designed for conversation, speech recognition, explicitly authorized tasks, and privacy.
 - **A desktop bridge** with tightly scoped operations, execution receipts, and recovery mechanisms.
-- **An installable and maintainable distro**, evolving from versioned packages and repeatable tests to a future installation ISO.
+- **An installable and maintainable distro**, with an experimental Live ISO validated in a UEFI VM, and a future installer still in development.
 
 **Project status:** actively developed, *pre-release*. The desktop is used on my personal machine, but **SilvOS does not yet have a public ISO or a stable release**. The development repository is private at this stage. Some integrations and GPU acceleration are still under evaluation.
+
+**Alpha 0.1 milestone (November 2026):** a **private Live ISO** successfully booted in QEMU UEFI with an unprivileged `live` session, Niri/Wayland, Noctalia, Kitty, Thunar, network and PipeWire audio. The VM tests reached `SILVOS_ALPHA_PASS`. **Not a public download, installer, stable release, or real-hardware certification.**
 
 **Official SilvOS website:** [silviodarko.github.io](https://silviodarko.github.io/) · Liquid Glass, Jarvis and public roadmap.
 
