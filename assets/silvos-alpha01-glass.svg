@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="184" viewBox="0 0 1200 184" role="img" aria-labelledby="title desc">
+<title id="title">SilvOS Alpha 0.1 | UEFI VM validated</title>
+<desc id="desc">Frosted-glass status panel: a private live ISO reached SILVOS_ALPHA_PASS in a QEMU UEFI virtual machine.</desc>
+<defs>
+ <linearGradient id="bg" x2="1" y2="0"><stop stop-color="#0A1D32"/><stop offset=".55" stop-color="#173A55"/><stop offset="1" stop-color="#0B2138"/></linearGradient>
+ <linearGradient id="glass" x2="1" y2="1"><stop stop-color="#E8FAFF" stop-opacity=".15"/><stop offset="1" stop-color="#87C7FF" stop-opacity=".045"/></linearGradient>
+ <linearGradient id="line" x2="1" y2="0"><stop stop-color="#B5F2FF"/><stop offset="1" stop-color="#6FC8FF"/></linearGradient>
+</defs>
+<rect width="1200" height="184" rx="22" fill="url(#bg)"/>
+<circle cx="1049" cy="75" r="140" fill="#78CFFF" opacity=".06"/>
+<rect x="18" y="18" width="1164" height="148" rx="18" fill="url(#glass)" stroke="#B9EAFF" stroke-opacity=".34"/>
+<circle cx="82" cy="91" r="31" fill="#8ADFFF" fill-opacity=".12" stroke="#ABEDFF" stroke-opacity=".55"/>
+<path d="M67 90 L78 101 L98 80" fill="none" stroke="#D7F8FF" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="136" y="68" font-family="Arial,Helvetica,sans-serif" font-size="13" fill="#9ADFFC" font-weight="700" letter-spacing="2.5">SILVOS DISTRIBUTION  /  FIRST LIVE BOOT</text>
+<text x="134" y="110" font-family="Arial,Helvetica,sans-serif" font-size="31" fill="#F0FAFF" font-weight="700">Alpha 0.1</text>
+<text x="136" y="138" font-family="Arial,Helvetica,sans-serif" font-size="14" fill="#B7D9E9">QEMU UEFI · Niri · Noctalia · PipeWire · 358 packages</text>
+<path d="M762 48V138" stroke="#BAE8F8" stroke-opacity=".23"/>
+<text x="801" y="74" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#9ACBE3" letter-spacing="2">VERIFIED IN LAB</text>
+<text x="801" y="106" font-family="monospace" font-size="24" font-weight="700" fill="url(#line)">SILVOS_ALPHA_PASS</text>
+<text x="801" y="133" font-family="Arial,Helvetica,sans-serif" font-size="13" fill="#B6D4E5">Private ISO · Not a public release</text>
+</svg>
