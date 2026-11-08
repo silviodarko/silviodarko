@@ -6,7 +6,7 @@
 
 SilvOS is an independently developed Linux desktop distribution project, built around **control, visual consistency, local-first AI, and maintainable delivery**.
 
-This is a **public, high-level roadmap**. The implementation repository remains private during the engineering phase. This document is not an installation guide, a release announcement, or a promise of availability on any particular date.
+This is a **public, high-level roadmap**. The implementation repository remains private during the engineering phase. The Alpha 0.1 milestone is an isolated VM validation, not an installation guide, a public release announcement, or a promise of availability on any particular date.
 
 ## Product pillars
 
@@ -43,11 +43,13 @@ This is a **public, high-level roadmap**. The implementation repository remains 
 
 ### Phase D. Installable distribution
 
-**Status: planned.**
+**Status: private Alpha 0.1 Live ISO validated in QEMU UEFI (November 2026); installer and public release still planned.**
 
-- [ ] Assemble a reproducible Live ISO.
-- [ ] Test boot, hardware compatibility and installation in virtual machines and real hardware.
-- [ ] Provide a documented installer, upgrade process and recovery procedure.
+- [x] Build a private experimental Live ISO and verify its SHA-256.
+- [x] Test graphical UEFI boot in QEMU with Niri/Wayland, Noctalia, Kitty, Thunar, network and PipeWire (`SILVOS_ALPHA_PASS`).
+- [ ] Validate alternative UEFI configurations and physical hardware, including AMD RX 580.
+- [ ] Investigate bit-for-bit ISO reproducibility; matching package inventories do not imply identical ISO hashes.
+- [ ] Provide a documented installer, upgrade process and recovery procedure, tested first on disposable virtual disks.
 - [ ] Publish release notes, checksums, verification instructions and applicable source licenses.
 
 ## Engineering rules
