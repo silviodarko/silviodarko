@@ -1,18 +1,18 @@
 <p align="right"><a href="./README.md">Português</a> · <strong>English</strong></p>
 
 <p align="center">
-  <img src="./assets/profile-header.svg" width="100%" alt="Sílvio Henrique | Founder & Systems Builder | SilvOS" />
+  <img src="./assets/profile-header-glass-v2.svg" width="100%" alt="Sílvio Henrique | Founder & Systems Builder | SilvOS" />
 </p>
 
 <p align="center">
-  <strong>Building tools that put people in control of their own technology.</strong><br/>
+  <strong>Building a Linux desktop shaped by glass, privacy and local intelligence.</strong><br/>
   <sub>Independent builder • Linux engineering • Local-first AI • Automation</sub>
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/s%C3%ADlvio-henrique-faria-b23a1b165/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Connect-1A2634?style=flat-square&logo=linkedin&logoColor=white"/></a>
-  <a href="https://github.com/silviodarko?tab=repositories"><img alt="Projects" src="https://img.shields.io/badge/GitHub-Projects-1A2634?style=flat-square&logo=github&logoColor=white"/></a>
-  <a href="https://github.com/silviodarko?tab=achievements"><img alt="GitHub Achievements" src="https://img.shields.io/badge/GitHub-Achievements-66BDE8?style=flat-square&logo=github&logoColor=101820"/></a>
+  <a href="https://www.linkedin.com/in/s%C3%ADlvio-henrique-faria-b23a1b165/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Connect-184363?style=flat-square&logo=linkedin&logoColor=white"/></a>
+  <a href="https://github.com/silviodarko?tab=repositories"><img alt="Projects" src="https://img.shields.io/badge/GitHub-Projects-226080?style=flat-square&logo=github&logoColor=white"/></a>
+  <a href="https://github.com/silviodarko?tab=achievements"><img alt="GitHub Achievements" src="https://img.shields.io/badge/GitHub-Achievements-307B9B?style=flat-square&logo=github&logoColor=white"/></a>
 </p>
 
 ---
@@ -47,33 +47,41 @@ I aim to turn technical experiments into tools that are **well designed, reprodu
 
 **Project status:** actively developed, *pre-release*. The desktop is used on my personal machine, but **SilvOS does not yet have a public ISO or a stable release**. The development repository is private at this stage. Some integrations and GPU acceleration are still under evaluation.
 
-**Alpha 0.1 milestone (November 2026):** a **private Live ISO** successfully booted in QEMU UEFI with an unprivileged `live` session, Niri/Wayland, Noctalia, Kitty, Thunar, network and PipeWire audio. The VM tests reached `SILVOS_ALPHA_PASS`. **Not a public download, installer, stable release, or real-hardware certification.**
+<p align="center">
+  <img src="./assets/silvos-alpha01-glass.svg" width="100%" alt="SilvOS Alpha 0.1, ISO Live privada homologada em QEMU UEFI" />
+</p>
+
+**Alpha 0.1 milestone (November 2026):** a **private Live ISO** successfully booted in QEMU UEFI with an unprivileged `live` session, Niri/Wayland, Noctalia, Kitty, Thunar, network and PipeWire audio. The VM tests reached `SILVOS_ALPHA_PASS`. **Not a public download, installer, stable release, or real-hardware certification.** See the [public roadmap](./SILVOS_ROADMAP.md).
 
 **Official SilvOS website:** [silviodarko.github.io](https://silviodarko.github.io/) · Liquid Glass, Jarvis and public roadmap.
 
 **Public roadmap:** [SilvOS development milestones](./SILVOS_ROADMAP.md) · high-level plans, no private implementation details.
 
+### Developer Program &amp; GitHub API
+
+I'm a **GitHub Developer Program participant**, exploring integrations built on the GitHub API. SilvOS Bridge uses scoped, authenticated operations, execution receipts and recovery checks. This is an individual developer-program participation, **not a GitHub partnership, certification or endorsement**.
+
 ### Technology stack
 
 **Systems & languages**
 
-![Arch Linux](https://img.shields.io/badge/Arch_Linux-1793D1?style=flat-square&logo=archlinux&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-111827?style=flat-square&logo=linux&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Bash](https://img.shields.io/badge/Bash-20232A?style=flat-square&logo=gnubash&logoColor=white)
-![Rust](https://img.shields.io/badge/Rust-2E3440?style=flat-square&logo=rust&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=flat-square&logo=javascript&logoColor=F7DF1E)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
-![CSS](https://img.shields.io/badge/CSS-1572B6?style=flat-square&logo=css&logoColor=white)
+![Arch Linux](https://img.shields.io/badge/Arch_Linux-438CAB?style=flat-square&logo=archlinux&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-184363?style=flat-square&logo=linux&logoColor=white)
+![Python](https://img.shields.io/badge/Python-226080?style=flat-square&logo=python&logoColor=white)
+![Bash](https://img.shields.io/badge/Bash-307B9B?style=flat-square&logo=gnubash&logoColor=white)
+![Rust](https://img.shields.io/badge/Rust-438CAB?style=flat-square&logo=rust&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-184363?style=flat-square&logo=javascript&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-226080?style=flat-square&logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS-307B9B?style=flat-square&logo=css&logoColor=white)
 
 **Desktop, tooling & delivery**
 
-![Qt](https://img.shields.io/badge/Qt-41CD52?style=flat-square&logo=qt&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-111827?style=flat-square&logo=flask&logoColor=white)
+![Qt](https://img.shields.io/badge/Qt-438CAB?style=flat-square&logo=qt&logoColor=white)
+![Git](https://img.shields.io/badge/Git-184363?style=flat-square&logo=git&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-226080?style=flat-square&logo=githubactions&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-307B9B?style=flat-square&logo=sqlite&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-438CAB?style=flat-square&logo=mysql&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-184363?style=flat-square&logo=flask&logoColor=white)
 
 **AI & inference:** Qwen3 · llama.cpp · Whisper ASR · Piper TTS · Kokoro ONNX (experimental) · Vulkan / RADV (performance evaluation).
 
@@ -89,15 +97,9 @@ I aim to turn technical experiments into tools that are **well designed, reprodu
 
 **[Explore my curated engineering portfolio](./PORTFOLIO.en.md)** · Selected projects, technical context and maturity.
 
-### GitHub achievements
+### GitHub activity
 
-<p>
-  <a href="https://github.com/silviodarko?achievement=quickdraw&tab=achievements">
-    <img alt="Quickdraw achievement" src="https://github.githubassets.com/assets/quickdraw-default-39c6aec8ff89.png" width="62" />
-  </a>
-</p>
-
-<sub>Official achievements are awarded by GitHub for eligible activity. [See my achievements](https://github.com/silviodarko?tab=achievements).</sub>
+GitHub-issued achievements, when eligible, are shown by GitHub itself. [View achievements and profile badges](https://github.com/silviodarko?tab=achievements). Developer Program membership is mentioned here as a program participation, not as a fabricated GitHub badge.
 
 ---
 
