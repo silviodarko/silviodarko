@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+<title id="title">Sílvio Henrique | SilvOS Liquid Glass</title>
+<desc id="desc">Dark midnight interface with layered translucent ice-blue panels and an illuminated SilvOS monogram.</desc>
+<defs>
+  <linearGradient id="night" x2="1" y2="1"><stop stop-color="#06111F"/><stop offset=".48" stop-color="#10243B"/><stop offset="1" stop-color="#08182B"/></linearGradient>
+  <radialGradient id="haze"><stop stop-color="#79C8FF" stop-opacity=".45"/><stop offset=".52" stop-color="#71C9FF" stop-opacity=".15"/><stop offset="1" stop-color="#7CDFFF" stop-opacity="0"/></radialGradient>
+  <linearGradient id="frost" x2="1" y2="1"><stop stop-color="#E9FCFF" stop-opacity=".19"/><stop offset=".45" stop-color="#96D9FF" stop-opacity=".055"/><stop offset="1" stop-color="#3B95B8" stop-opacity=".11"/></linearGradient>
+  <linearGradient id="edge" x2="1" y2="0"><stop stop-color="#B9F4FF" stop-opacity=".52"/><stop offset=".55" stop-color="#DFF9FF" stop-opacity=".16"/><stop offset="1" stop-color="#72CCFF" stop-opacity=".38"/></linearGradient>
+  <linearGradient id="ice" x2="1" y2="1"><stop stop-color="#FFFFFF"/><stop offset=".46" stop-color="#BDEFFF"/><stop offset="1" stop-color="#7FCDFF"/></linearGradient>
+  <pattern id="lines" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M36 0H0V36" fill="none" stroke="#AADFFF" stroke-opacity=".055"/></pattern>
+  <filter id="blur"><feGaussianBlur stdDeviation="23"/></filter>
+</defs>
+<rect width="1200" height="360" rx="26" fill="url(#night)"/>
+<rect width="1200" height="360" rx="26" fill="url(#lines)"/>
+<circle cx="990" cy="137" r="245" fill="url(#haze)"/>
+<ellipse cx="328" cy="2" rx="360" ry="50" fill="#B9F5FF" opacity=".12" filter="url(#blur)"/>
+<g transform="rotate(-12 977 177)">
+  <rect x="833" y="26" width="302" height="295" rx="38" fill="url(#frost)" stroke="#D1F8FF" stroke-opacity=".27"/>
+  <rect x="862" y="48" width="302" height="295" rx="38" fill="#91D8FF" fill-opacity=".045" stroke="#9FE7F8" stroke-opacity=".19"/>
+</g>
+<rect x="26" y="25" width="1148" height="309" rx="25" fill="url(#frost)" stroke="url(#edge)"/>
+<path d="M53 56H615" stroke="#F7FEFF" stroke-opacity=".23"/>
+<path d="M53 316H712" stroke="#8EDBFF" stroke-opacity=".39"/>
+<rect x="60" y="65" width="192" height="25" rx="12.5" fill="#BCEFFF" fill-opacity=".085" stroke="#9BDFFF" stroke-opacity=".34"/>
+<circle cx="79" cy="77.5" r="4" fill="#AAE9FF"/>
+<text x="92" y="82" font-size="11" font-weight="700" font-family="Arial,Helvetica,sans-serif" fill="#D3F4FF" letter-spacing="1.65">LIQUID GLASS / LINUX</text>
+<text x="59" y="166" font-size="56" font-weight="800" font-family="Arial,Helvetica,sans-serif" fill="#F4FCFF" letter-spacing=".1">SÍLVIO HENRIQUE</text>
+<text x="62" y="204" font-size="20" font-family="Arial,Helvetica,sans-serif" fill="#D6EAF5">Founder &amp; Systems Builder</text>
+<text x="62" y="251" font-size="16" font-family="Arial,Helvetica,sans-serif" fill="#A6D0E6">Linux Engineering  ·  Local AI  ·  Desktop Automation</text>
+<text x="62" y="300" font-size="12" font-family="Arial,Helvetica,sans-serif" font-weight="700" fill="#A6E7FF" letter-spacing="2.2">BUILDING SILVOS  /  ARCH + WAYLAND</text>
+<g transform="translate(986 181)">
+  <circle r="117" fill="url(#haze)"/>
+  <circle r="94" fill="#C9F5FF" fill-opacity=".085" stroke="#CBF2FF" stroke-opacity=".55" stroke-width="1.4"/>
+  <ellipse rx="118" ry="56" transform="rotate(-38)" fill="none" stroke="#A9E9FF" stroke-opacity=".37" stroke-width="1.25"/>
+  <circle r="75" fill="#B7EEFF" fill-opacity=".07" stroke="url(#edge)" stroke-width="2"/>
+  <path d="M-40 -35 H39 L19 -17 H-19 L-39 0 H22 L40 17 H-40 L-20 35 H39" fill="none" stroke="url(#ice)" stroke-width="8.5" stroke-linejoin="bevel" stroke-linecap="square"/>
+  <circle cx="-111" cy="-61" r="3.5" fill="#E5FBFF"/>
+  <circle cx="109" cy="82" r="3" fill="#7EE5F2"/>
+</g>
+<text x="1130" y="312" text-anchor="end" font-family="Arial,Helvetica,sans-serif" font-size="10" fill="#A9CCDF" letter-spacing="2">2026</text>
+</svg>
