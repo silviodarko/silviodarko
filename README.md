@@ -115,7 +115,9 @@ Minha inscrição no **[GitHub Developer Program](https://github.com/developer)*
 
 ### Atividade no GitHub
 
-Selos e conquistas oficiais são exibidos pelo próprio GitHub quando os critérios são atendidos. [Ver conquistas e selos do perfil](https://github.com/silviodarko?tab=achievements). A participação no Developer Program não é apresentada aqui como um selo oficial já concedido.
+**Pull Shark** 🦈 · conquista oficial desbloqueada em **11 de novembro de 2026**, por pull requests mesclados. Marco registrado na [PR #2 do roadmap público do SilvOS](https://github.com/silviodarko/silviodarko/pull/2). O selo é exibido e gerenciado pelo próprio GitHub, na [aba de conquistas do perfil](https://github.com/silviodarko?tab=achievements).
+
+A participação no GitHub Developer Program é apresentada separadamente, sem confundi-la com um selo oficial de conquista.
 
 ---
 
