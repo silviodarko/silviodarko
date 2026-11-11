@@ -48,7 +48,7 @@ Meu objetivo é transformar experimentação técnica em produtos **bem desenhad
 **Status do projeto:** desenvolvimento ativo / *pre-release*. A experiência já é utilizada no meu ambiente pessoal, mas **o SilvOS ainda não possui ISO pública ou lançamento estável**. O repositório de desenvolvimento permanece privado nesta fase. Algumas integrações e aceleração por GPU estão em pesquisa e validação.
 
 <p align="center">
-  <img src="./assets/silvos-alpha01-glass.svg" width="100%" alt="SilvOS Alpha 0.1, ISO Live privada homologada em QEMU UEFI" />
+  <img src="./assets/silvos-alpha03-glass.svg" width="100%" alt="SilvOS Alpha 0.3: ISO instalável validada em QEMU UEFI, com Niri, Noctalia e integridade do disco sentinela" />
 </p>
 
 **Marco Alpha 0.3 (novembro de 2026):** a **ISO instalável privada** concluiu a instalação num disco virtual qcow2, iniciou pelo próprio disco em QEMU UEFI **sem a ISO** e passou por testes de Niri/Wayland, Noctalia, rede, `silvos-cli` e SHA-256 do disco sentinela. O teste privado foi concluído com sucesso; isso **não é homologação para hardware físico, release estável nem download público**. [Veja os próximos passos](./SILVOS_ROADMAP.md).

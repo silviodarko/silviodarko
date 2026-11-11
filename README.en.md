@@ -48,7 +48,7 @@ I aim to turn technical experiments into tools that are **well designed, reprodu
 **Project status:** actively developed, *pre-release*. The desktop is used on my personal machine, but **SilvOS does not yet have a public ISO or a stable release**. The development repository is private at this stage. Some integrations and GPU acceleration are still under evaluation.
 
 <p align="center">
-  <img src="./assets/silvos-alpha01-glass.svg" width="100%" alt="SilvOS Alpha 0.1, ISO Live privada homologada em QEMU UEFI" />
+  <img src="./assets/silvos-alpha03-glass.svg" width="100%" alt="SilvOS Alpha 0.3: private installable ISO verified in QEMU UEFI, Niri, Noctalia and unchanged sentinel disk" />
 </p>
 
 **Alpha 0.3 milestone (November 2026):** the **private installable ISO** completed installation on a disposable qcow2 disk, booted from its installed disk in QEMU UEFI **without the ISO**, and passed Niri/Wayland, Noctalia, network, `silvos-cli` and secondary-disk SHA-256 checks. This is **not physical-hardware certification, a stable release or a public download**. See the [public roadmap](./SILVOS_ROADMAP.md).
