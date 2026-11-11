@@ -43,7 +43,7 @@ Meu objetivo é transformar experimentação técnica em produtos **bem desenhad
 - **Uma experiência desktop própria**, com composição Wayland, personalizações visuais e aplicações integradas.
 - **Um assistente local de verdade**, para conversar, interpretar voz, executar ações previamente autorizadas e respeitar a privacidade.
 - **Uma ponte entre dispositivos e o desktop**, com operações restritas, recibos de execução e mecanismos de recuperação.
-- **Uma distribuição instalável e atualizável**, com uma ISO Live experimental validada em VM UEFI e um futuro instalador ainda em desenvolvimento.
+- **Uma distribuição instalável e atualizável**, com uma Alpha 0.3 instalável já validada em QEMU UEFI e um sistema de pacotes e atualizações próprio em desenvolvimento.
 
 **Status do projeto:** desenvolvimento ativo / *pre-release*. A experiência já é utilizada no meu ambiente pessoal, mas **o SilvOS ainda não possui ISO pública ou lançamento estável**. O repositório de desenvolvimento permanece privado nesta fase. Algumas integrações e aceleração por GPU estão em pesquisa e validação.
 
@@ -51,15 +51,31 @@ Meu objetivo é transformar experimentação técnica em produtos **bem desenhad
   <img src="./assets/silvos-alpha01-glass.svg" width="100%" alt="SilvOS Alpha 0.1, ISO Live privada homologada em QEMU UEFI" />
 </p>
 
-**Marco Alpha 0.1 (novembro de 2026):** uma **ISO Live privada** iniciou em QEMU UEFI com sessão `live` sem privilégios, Niri/Wayland, Noctalia, Kitty, Thunar, rede e áudio PipeWire. Os testes na VM alcançaram `SILVOS_ALPHA_PASS`. **Ainda não é download público, instalador, versão estável nem homologação em hardware físico.** Consulte o [roadmap público](./SILVOS_ROADMAP.md).
+**Marco Alpha 0.3 (novembro de 2026):** a **ISO instalável privada** concluiu a instalação num disco virtual qcow2, iniciou pelo próprio disco em QEMU UEFI **sem a ISO** e passou por testes de Niri/Wayland, Noctalia, rede, `silvos-cli` e SHA-256 do disco sentinela. O teste privado foi concluído com sucesso; isso **não é homologação para hardware físico, release estável nem download público**. [Veja os próximos passos](./SILVOS_ROADMAP.md).
 
 **Site oficial do SilvOS:** [silviodarko.github.io](https://silviodarko.github.io/) · Liquid Glass, Jarvis e roadmap público.
 
 **Roadmap público:** [SilvOS development milestones](./SILVOS_ROADMAP.md) · versão resumida, sem detalhes privados.
 
+### Da Alpha 0.3 ao `silvos update`
+
+| Etapa | Situação |
+| :--- | :--- |
+| ISO instalável e boot UEFI sem a mídia | **Validado em QEMU** (laboratório privado) |
+| Niri, Noctalia, rede e `silvos-cli` no sistema instalado | **Validados em QEMU** |
+| Primeiro pacote `silvos-cli` e assinatura GPG temporária | **Testados em CI isolado** |
+| Compilação do `silvos-lniri` personalizado | **Em validação**, linkagem `libspa` pendente |
+| Repositório `silvos-testing` e chave de release | **Ainda não disponíveis** |
+| Upgrade N → N+1 e rollback em VM | **Próxima prioridade** |
+| `silvos update` com atualização real no desktop | **Bloqueado até homologação** |
+
+O protótipo `silvos update --check` consulta a base local do Pacman, sem baixar ou instalar nada. O objetivo final é ter atualizações completas via `pacman -Syu` e pacotes próprios assinados, preservando as personalizações Glass. Não se trata de um atualizador de produção disponível hoje.
+
+**Página oficial:** [SilvOS • progresso e atualizações](https://silviodarko.github.io/#atualizacoes).
+
 ### Developer Program &amp; GitHub API
 
-Participo do **[GitHub Developer Program](https://github.com/developer)**, voltado à criação de integrações com a API do GitHub. A Ponte SilvOS é nosso laboratório de ações autenticadas, controles de segurança, recibos de execução e recuperação. Essa participação **não representa parceria, certificação ou endosso oficial do GitHub**.
+Minha inscrição no **[GitHub Developer Program](https://github.com/developer)** foi confirmada em novembro de 2026, voltado à criação de integrações com a API do GitHub. A Ponte SilvOS é nosso laboratório de ações autenticadas, controles de segurança, recibos de execução e recuperação. Essa participação **não representa parceria, certificação ou endosso oficial do GitHub**.
 
 ### Technology stack
 

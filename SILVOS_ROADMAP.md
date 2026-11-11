@@ -6,7 +6,7 @@
 
 SilvOS is an independently developed Linux desktop distribution project, built around **control, visual consistency, local-first AI, and maintainable delivery**.
 
-This is a **public, high-level roadmap**. The implementation repository remains private during the engineering phase. The Alpha 0.1 milestone is an isolated VM validation, not an installation guide, a public release announcement, or a promise of availability on any particular date.
+This is a **public, high-level roadmap**. The implementation repository remains private during the engineering phase. The Alpha 0.3 milestone is an install-and-boot validation in disposable QEMU disks, not an installation guide for physical hardware, a public release announcement, or a promise of availability on any particular date.
 
 ## Product pillars
 
@@ -39,17 +39,19 @@ This is a **public, high-level roadmap**. The implementation repository remains 
 - [ ] Finish independent package licensing and redistributability checks.
 - [ ] Establish real release signing keys and a trusted package repository.
 - [ ] Validate backups, migrations and rollback on a clean test installation.
-- [ ] Release a supported, user-facing update channel.
+- [ ] Validate a signed N → N+1 package upgrade in a clean VM, including rollback/recovery.
+- [ ] Release a supported, user-facing update channel with an actual `silvos update` command.
 
 ### Phase D. Installable distribution
 
-**Status: private Alpha 0.1 Live ISO validated in QEMU UEFI (November 2026); installer and public release still planned.**
+**Status: private Alpha 0.3 installable ISO verified end-to-end in a disposable QEMU UEFI VM (November 2026); real-hardware installer and public release still planned.**
 
 - [x] Build a private experimental Live ISO and verify its SHA-256.
 - [x] Test graphical UEFI boot in QEMU with Niri/Wayland, Noctalia, Kitty, Thunar, network and PipeWire (`SILVOS_ALPHA_PASS`).
+- [x] Install to a disposable qcow2 disk and boot from it without the ISO in QEMU UEFI; verify Niri, Noctalia, networking, CLI and an unchanged secondary disk.
 - [ ] Validate alternative UEFI configurations and physical hardware, including AMD RX 580.
 - [ ] Investigate bit-for-bit ISO reproducibility; matching package inventories do not imply identical ISO hashes.
-- [ ] Provide a documented installer, upgrade process and recovery procedure, tested first on disposable virtual disks.
+- [ ] Provide a documented **real-hardware** installer, upgrade process and recovery procedure, tested first on disposable virtual disks.
 - [ ] Publish release notes, checksums, verification instructions and applicable source licenses.
 
 ## Engineering rules

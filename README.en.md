@@ -43,7 +43,7 @@ I aim to turn technical experiments into tools that are **well designed, reprodu
 - **A distinct Linux desktop experience**, integrating Wayland composition, visual customization, and productivity applications.
 - **An actually useful local assistant** designed for conversation, speech recognition, explicitly authorized tasks, and privacy.
 - **A desktop bridge** with tightly scoped operations, execution receipts, and recovery mechanisms.
-- **An installable and maintainable distro**, with an experimental Live ISO validated in a UEFI VM, and a future installer still in development.
+- **An installable and maintainable distro**, with a private Alpha 0.3 installable ISO validated in QEMU UEFI and a signed package update system under development.
 
 **Project status:** actively developed, *pre-release*. The desktop is used on my personal machine, but **SilvOS does not yet have a public ISO or a stable release**. The development repository is private at this stage. Some integrations and GPU acceleration are still under evaluation.
 
@@ -51,15 +51,31 @@ I aim to turn technical experiments into tools that are **well designed, reprodu
   <img src="./assets/silvos-alpha01-glass.svg" width="100%" alt="SilvOS Alpha 0.1, ISO Live privada homologada em QEMU UEFI" />
 </p>
 
-**Alpha 0.1 milestone (November 2026):** a **private Live ISO** successfully booted in QEMU UEFI with an unprivileged `live` session, Niri/Wayland, Noctalia, Kitty, Thunar, network and PipeWire audio. The VM tests reached `SILVOS_ALPHA_PASS`. **Not a public download, installer, stable release, or real-hardware certification.** See the [public roadmap](./SILVOS_ROADMAP.md).
+**Alpha 0.3 milestone (November 2026):** the **private installable ISO** completed installation on a disposable qcow2 disk, booted from its installed disk in QEMU UEFI **without the ISO**, and passed Niri/Wayland, Noctalia, network, `silvos-cli` and secondary-disk SHA-256 checks. This is **not physical-hardware certification, a stable release or a public download**. See the [public roadmap](./SILVOS_ROADMAP.md).
 
 **Official SilvOS website:** [silviodarko.github.io](https://silviodarko.github.io/) · Liquid Glass, Jarvis and public roadmap.
 
 **Public roadmap:** [SilvOS development milestones](./SILVOS_ROADMAP.md) · high-level plans, no private implementation details.
 
+### From Alpha 0.3 to `silvos update`
+
+| Milestone | Status |
+| :--- | :--- |
+| Installable ISO and ISO-free UEFI boot | **Verified in QEMU** (private lab) |
+| Niri, Noctalia, network and `silvos-cli` | **Verified in the installed VM** |
+| First `silvos-cli` package and temporary GPG signatures | **Tested in isolated CI** |
+| Customized `silvos-lniri` build | **Under validation**, `libspa` linking unresolved |
+| Trusted `silvos-testing` release repository and key | **Not available yet** |
+| N → N+1 VM upgrade and recovery | **Next milestone** |
+| Real `silvos update` on the workstation | **Blocked pending validation** |
+
+The current `silvos update --check` prototype only checks the local Pacman database. The future updater is intended to use fully signed packages and complete upgrades through `pacman -Syu`, preserving Glass customizations. No production updater has been released.
+
+**Official page:** [SilvOS development updates](https://silviodarko.github.io/#atualizacoes).
+
 ### Developer Program &amp; GitHub API
 
-I'm a **GitHub Developer Program participant**, exploring integrations built on the GitHub API. SilvOS Bridge uses scoped, authenticated operations, execution receipts and recovery checks. This is an individual developer-program participation, **not a GitHub partnership, certification or endorsement**.
+My **GitHub Developer Program enrollment was confirmed in November 2026**; I'm a participant, exploring integrations built on the GitHub API. SilvOS Bridge uses scoped, authenticated operations, execution receipts and recovery checks. This is an individual developer-program participation, **not a GitHub partnership, certification or endorsement**.
 
 ### Technology stack
 
