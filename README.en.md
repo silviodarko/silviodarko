@@ -115,7 +115,9 @@ My **GitHub Developer Program enrollment was confirmed in November 2026**; I'm a
 
 ### GitHub activity
 
-GitHub-issued achievements, when eligible, are shown by GitHub itself. [View achievements and profile badges](https://github.com/silviodarko?tab=achievements). Developer Program membership is mentioned here as a program participation, not as a fabricated GitHub badge.
+**Pull Shark** 🦈 · official GitHub achievement unlocked on **November 11, 2026**, for merged pull requests. A documented milestone is [PR #2 for the public SilvOS roadmap](https://github.com/silviodarko/silviodarko/pull/2). GitHub itself displays and manages the achievement in the [profile achievements tab](https://github.com/silviodarko?tab=achievements).
+
+GitHub Developer Program participation is listed separately and is not presented as an official achievement badge.
 
 ---
 
