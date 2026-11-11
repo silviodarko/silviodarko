@@ -117,6 +117,9 @@ My **GitHub Developer Program enrollment was confirmed in November 2026**; I'm a
 
 **Pull Shark** 🦈 · official GitHub achievement unlocked on **November 11, 2026**, for merged pull requests. A documented milestone is [PR #2 for the public SilvOS roadmap](https://github.com/silviodarko/silviodarko/pull/2). GitHub itself displays and manages the achievement in the [profile achievements tab](https://github.com/silviodarko?tab=achievements).
 
+
+**Quickdraw** ⚡ · official achievement unlocked on **November 5, 2026**, when [SilvOS Issue #4](https://github.com/silviodarko/SilvOS/issues/4) was closed in 49 seconds.
+
 GitHub Developer Program participation is listed separately and is not presented as an official achievement badge.
 
 ---
