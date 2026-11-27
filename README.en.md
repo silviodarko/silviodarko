@@ -1,68 +1,87 @@
 <p align="right"><a href="./README.md">Português</a> · <strong>English</strong></p>
 
-<p align="center"><img src="./assets/renascimento-aurora.svg" width="100%" alt="SilvOS: independent systems engineering, Aurora Glass identity"/></p>
+<p align="center"><a href="https://silviodarko.github.io/en.html"><img src="./assets/profile-portal.svg" width="100%" alt="Sílvio Henrique, creator of SilvOS. Your system. Your rules."/></a></p>
 
-# Sílvio Henrique | Systems builder
+<p align="center"><strong>Independent Linux. Local intelligence. Purposeful engineering.</strong></p>
 
-Brazilian independent developer and creator of **SilvOS**. My interests connect Linux, user experience, local intelligence and verifiable automation engineering.
-
-> Your system. Your rules.
-
-[Official website](https://silviodarko.github.io/) · [Roadmap](./SILVOS_ROADMAP.md) · [Portfolio](./PORTFOLIO.en.md) · [LinkedIn](https://www.linkedin.com/in/s%C3%ADlvio-henrique-faria-b23a1b165/)
-
-## SilvOS · an ecosystem, not just a desktop
-
-SilvOS is an independent Linux distribution in development, built on Arch Linux and Wayland. The personal workstation is used daily; the distribution and new integrations remain pre-release.
-
-<p align="center"><img src="./assets/ecosystem-renascimento.svg" width="100%" alt="Conceptual architecture: user, UNITY Aurora, memory, communication, engineering and desktop"/></p>
-
-| Component | What is being built | Status |
-| --- | --- | --- |
-| **Aurora Glass** | Visual experience, Alive orb, HUD and settings center | Integration candidate |
-| **UNITY** | Local conversation, streaming, voice, memory and authorized tools | Final desktop validation pending |
-| **VULCANO** | Engineering execution, tests, receipts and recovery | Lab candidate |
-| **Mnemosyne** | Persistent memory and context retrieval | Integration evolving |
-| **NEXUS** | Scoped operational communication | Integration under validation |
-| **UNITY Mobile** | Android client, pairing and restricted access | Experimental alpha |
-| **SilvOS Linux** | Arch desktop, Niri, Noctalia, packages and installation | Alpha 0.3 validated in VM |
-
-## Engineering in practice
-
-- **Desktop:** Niri / Lniri, Noctalia, Kitty, Wayland integration and Glass customization.
-- **Local intelligence:** Qwen, llama.cpp, Vulkan inference, PipeWire audio, speech recognition and synthesis under evaluation.
-- **Responsible automation:** Python, Bash, user systemd services, SQLite, APIs, regression testing and isolation.
-- **Delivery:** PKGBUILD, pacman, QEMU, GitHub Actions, experimental signing, backups and recovery.
-
-These technologies include current use, research and integration, not a certified distribution feature list.
-
-## Evidence and next milestones
-
-| Milestone | Documented status |
-| --- | --- |
-| Alpha 0.3 | Installation on qcow2 and ISO-free UEFI boot; Niri/Noctalia, network and CLI validated in QEMU; secondary disk preserved |
-| Aurora | Lab integration build and regressions; final installation pending |
-| Vulcano | Sequential execution and recovery rehearsals with simulated dependencies; continuous physical production pending |
-| Updates | Signing, verification and recovery prototypes; no public distribution update channel |
-| Hardware | Proposed compatibility matrix and adaptive profiles, not yet certified |
-
-**No public ISO, release date or universal hardware support announced.** The architecture is a project vision, not a promise of unrestricted autonomy. [Roadmap and release gates](./SILVOS_ROADMAP.md).
-
-## Selected public projects
-
-| Project | Focus |
-| --- | --- |
-| [RX580 Linux Stability Fix](https://github.com/silviodarko/rx580-linux-stability-fix) | AMD GPU diagnostics and power management; experimental |
-| [Scroll Lock wlroots Fix](https://github.com/silviodarko/scrolllock-wlroots-fix) | Linux keyboard events, Python and systemd; experimental |
-| [Flask API](https://github.com/silviodarko/API.Flask.COLAB) | HTTP API and JSON; educational |
-
-[Full portfolio](./PORTFOLIO.en.md) · [Project catalog](./PROJECTS.md) · [All repositories](https://github.com/silviodarko?tab=repositories)
-
-## Community and development
-
-Individual participant in the [GitHub Developer Program](https://github.com/developer), without institutional partnership, certification or endorsement. Official Pull Shark and Quickdraw achievements are available on the [achievements profile](https://github.com/silviodarko?tab=achievements).
-
-The main SilvOS codebase remains private during this phase. Public material describes objectives, sanitized evidence and limitations, not credentials or private operations.
+<p align="center">
+<a href="https://silviodarko.github.io/en.html"><strong>Official website ↗</strong></a> &nbsp;·&nbsp;
+<a href="./SILVOS_ROADMAP.md">Roadmap</a> &nbsp;·&nbsp;
+<a href="./PORTFOLIO.en.md">Portfolio</a> &nbsp;·&nbsp;
+<a href="https://www.linkedin.com/in/s%C3%ADlvio-henrique-faria-b23a1b165/">LinkedIn</a>
+</p>
 
 ---
 
-**Engineering independence, one commit at a time.** · Built in Brazil.
+## 01 · The project
+
+I am a Brazilian independent developer and creator of **SilvOS**, a Linux distribution in development on Arch Linux and Wayland. I build tools connecting desktop experience, local intelligence and verifiable automation while keeping users in control.
+
+The personal workstation is used daily. The distribution's new integrations remain pre-release.
+
+## 02 · The next generation
+
+<table width="100%">
+<tr>
+<td width="50%" valign="top">
+<a href="https://silviodarko.github.io/en.html#unity"><img src="./assets/profile-unity.svg" width="100%" alt="UNITY: local personal intelligence"/></a>
+<strong>UNITY Aurora</strong><br/>
+Local conversation, streaming, memory, voice and authorized tools in an Aurora Glass interface.<br/><sub>Integration and final desktop validation in progress.</sub>
+</td>
+<td width="50%" valign="top">
+<a href="https://silviodarko.github.io/en.html#ecosystem"><img src="./assets/profile-vulcano.svg" width="100%" alt="VULCANO: engineering and validation"/></a>
+<strong>VULCANO</strong><br/>
+Engineering execution, tests, verifiable receipts and recovery.<br/><sub>Lab candidate; continuous physical production pending.</sub>
+</td>
+</tr>
+</table>
+
+<p align="center"><img src="./assets/ecosystem-renascimento.svg" width="100%" alt="Conceptual architecture: user, UNITY Aurora, Mnemosyne, NEXUS, Vulcano and SilvOS Linux"/></p>
+
+| Component | Responsibility |
+| --- | --- |
+| **Aurora Glass** | Visual experience, Alive orb, HUD and preferences. |
+| **Mnemosyne** | Persistent memory and context retrieval. |
+| **NEXUS** | Scoped operational communication. |
+| **UNITY Mobile** | Experimental Android client, pairing and restricted access. |
+| **SilvOS Linux** | Arch, Niri, Noctalia, packages, installation and recovery. |
+
+[Explore the ecosystem ↗](https://silviodarko.github.io/en.html#ecosystem) · [Brand studio ↗](https://silviodarko.github.io/brand.html)
+
+## 03 · Engineering in practice
+
+<p align="center"><img src="./assets/profile-stack.svg" width="100%" alt="Engineering stack: Arch, Niri, Wayland, Noctalia, Qwen, llama.cpp, Vulkan, PipeWire, Python, Bash, systemd, SQLite, QEMU, pacman and GitHub Actions"/></p>
+
+I work on desktop integration, local inference, audio, deterministic automation, regression testing, packaging and recovery. The stack includes current use, research and integration, not a certified distribution feature list.
+
+## 04 · From the lab to daily use
+
+| Milestone | Documented status |
+| --- | --- |
+| **Alpha 0.3** | QEMU UEFI validation: installation, ISO-free boot, desktop, network, CLI and secondary disk preservation. |
+| **Aurora** | Lab integration build and regressions; final installation pending. |
+| **Vulcano** | Sequential execution and recovery rehearsals with simulated dependencies; continuous physical production pending. |
+| **Distribution** | Signing, verification and recovery prototypes; no public update channel. |
+| **Hardware** | Proposed validation matrix and adaptive profiles, not certified. |
+
+**No public ISO, release date or universal hardware support announced.** The architecture describes project direction, not unrestricted autonomy.
+
+[Roadmap and release gates →](./SILVOS_ROADMAP.md)
+
+## 05 · Selected public projects
+
+| Project | Area |
+| --- | --- |
+| [RX580 Linux Stability Fix](https://github.com/silviodarko/rx580-linux-stability-fix) | AMD GPU diagnostics and power management · experimental |
+| [Scroll Lock wlroots Fix](https://github.com/silviodarko/scrolllock-wlroots-fix) | Linux keyboard events, Python and systemd · experimental |
+| [Flask API](https://github.com/silviodarko/API.Flask.COLAB) | HTTP API and JSON · educational |
+
+[Full portfolio](./PORTFOLIO.en.md) · [Project catalog](./PROJECTS.md) · [All repositories](https://github.com/silviodarko?tab=repositories)
+
+---
+
+<p align="center"><strong>Engineering independence, one commit at a time.</strong><br/>Built in Brazil · Independent Linux project</p>
+
+<p align="center"><a href="https://github.com/developer">GitHub Developer Program</a> · <a href="https://github.com/silviodarko?tab=achievements">Official achievements: Pull Shark and Quickdraw</a></p>
+
+<sub>Individual participation, without institutional partnership or endorsement. The main codebase remains private at this stage. Public material describes objectives, sanitized evidence and limitations.</sub>
