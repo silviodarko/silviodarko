@@ -1,63 +1,145 @@
 <p align="right"><a href="./PORTFOLIO.md">Português</a> · <strong>English</strong></p>
 
-# Engineering Portfolio | Sílvio Henrique
+<p align="center"><img src="./assets/portfolio-cover.svg" width="100%" alt="Sílvio Henrique engineering portfolio: Linux systems, local intelligence and verifiable engineering"/></p>
 
-> **Focus:** Linux · systems engineering · automation · local AI  
-> **Principles:** honest documentation, safety before automation, and user ownership.
+# Engineering portfolio
 
-This is a selection of the work I find most relevant today, not an indiscriminate catalog of every course exercise on my GitHub account.
+I am the creator of **SilvOS**, an independent Brazilian developer working across Linux integration, desktop experience, local artificial intelligence, automation and change validation.
 
-## Flagship project
+This portfolio presents problems, engineering decisions, evidence and limitations for each project. I distinguish prototypes, laboratory rehearsals and validated capabilities.
 
-### SilvOS | An independent Linux experience
+<p align="center"><a href="#flagship">Case studies</a> · <a href="#public-projects">Public projects</a> · <a href="#engineering-method">Method</a> · <a href="#contact">Contact</a></p>
 
-**Stage: active development, pre-release.**
+---
 
-An experimental Arch-based desktop system combining Niri/Lniri, Noctalia, visual customization, local AI and a carefully scoped automation bridge built around authorization and recovery.
+<a id="flagship"></a>
 
-**Engineering areas:** Wayland, Linux desktops, Python, Bash, JavaScript, GitHub Actions, Arch packaging, isolated tests, audio systems and local inference.
+## SilvOS | Flagship project
 
-The main development repository is private for now. No public stable ISO has been released.
+<p align="center"><a href="https://silviodarko.github.io/en.html"><img src="./assets/renascimento-aurora.svg" width="100%" alt="SilvOS: Your system. Your rules."/></a></p>
 
-[Read the public SilvOS roadmap](./SILVOS_ROADMAP.md)
+**Role:** creator and technical direction of the independent project. **Stage:** active development, pre-release.
 
-## SilvOS as a systems engineering case study
+The project combines an Arch Linux and Wayland-based distribution, a distinct visual experience, local intelligence and engineering tools. The main codebase remains private; this public presentation does not constitute a release.
 
-| Track | Engineering work | Evidence and limit |
-| --- | --- | --- |
-| Aurora / UNITY | Interface, streaming, memory, audio and cancellation integration | Lab build and rehearsals; final desktop validation pending |
-| Vulcano | Sequential execution, revision verification, receipts and recovery | Isolated rehearsals; continuous physical production pending |
-| Distribution | ISO, packaging, UEFI installation and safe updates | Alpha 0.3 in VM; public channel not released |
-| Mobile | Android client and scoped pairing | Experimental alpha; physical device validation pending |
+[Official website ↗](https://silviodarko.github.io/en.html) · [Roadmap](./SILVOS_ROADMAP.md) · [Brand studio ↗](https://silviodarko.github.io/brand.html)
 
-The central contribution is turning prototypes into verifiable components, preserving privacy and documenting the distinction between code, laboratory validation and real use.
+### 01 · UNITY Aurora | Personal intelligence
 
-## Selected public projects
+<p align="center"><img src="./assets/profile-unity.svg" width="480" alt="01 · UNITY Aurora | Personal intelligence"/></p>
 
-| Project | Technical contribution | Status |
-| --- | --- | --- |
-| [RX580 Linux Stability Lab](https://github.com/silviodarko/rx580-linux-stability-fix) | Linux AMD GPU power-management investigation, documented shell and systemd experiments | Experimental |
-| [Scroll Lock LED Linux Workaround](https://github.com/silviodarko/scrolllock-wlroots-fix) | Linux input events with Python/libevdev and sample systemd integration | Experimental workaround |
-| [Flask API / JSON](https://github.com/silviodarko/API.Flask.COLAB) | Public HTTP API and JSON data learning project in Python/Flask | Educational |
+**Challenge:** How can a local assistant integrate with a desktop without treating conversation as unrestricted authorization?
 
-## Skills and work
+**Approach:** Glass interface, Alive orb, streaming, recoverable context, audio and scoped tools. Separate memory, communication and execution responsibilities.
 
-**Systems:** Arch Linux, package management, shell, desktop integration, user services, Wayland and troubleshooting.
+**Evidence and limitations:** Lab integration builds and regressions documented. Final desktop validation, cancellation and resource behavior remain acceptance gates.
 
-**Development:** Python, Bash, JavaScript, SQL, API integrations and Git workflows.
+<sub>Qwen · llama.cpp · PipeWire · Wayland · Python</sub>
 
-**Applied AI:** local Qwen3/llama.cpp orchestration, Whisper-based speech recognition, Piper speech synthesis, and evaluation of Kokoro ONNX.
+### 02 · VULCANO | Verifiable engineering
 
-**Responsible operations:** change planning, validation, backups, rollback and privacy-aware diagnostics.
+<p align="center"><img src="./assets/profile-vulcano.svg" width="480" alt="02 · VULCANO | Verifiable engineering"/></p>
 
-## Learning archive
+**Challenge:** How can consecutive jobs run without losing results, duplicating work or mistaking a test for authorization?
 
-Other public repositories reflect earlier courses and exercises in programming, databases and security. They document a learning journey and are not necessarily current, audited or production-ready.
+**Approach:** Scoped contracts, revision checks, isolated tests, receipts, reconciliation and recovery. Deterministic automation first.
 
-I deliberately do not promote potentially sensitive artifacts or image datasets that need additional licensing review.
+**Evidence and limitations:** Sequential execution and recovery rehearsals used simulated dependencies. Physical installation and consecutive real production remain pending.
 
-## Professional contact
+<sub>Python · SQLite · systemd · Git · regression tests</sub>
 
-For Linux discussions, technical collaboration or SilvOS-related inquiries, reach out through [LinkedIn](https://www.linkedin.com/in/s%C3%ADlvio-henrique-faria-b23a1b165/) or public project discussion channels.
+### 03 · SilvOS Linux | Distribution engineering
 
-[Back to profile](./README.en.md) · [All repositories](https://github.com/silviodarko?tab=repositories)
+<p align="center"><img src="./assets/portfolio-delivery.svg" width="100%" alt="03 · SilvOS Linux | Distribution engineering"/></p>
+
+**Challenge:** How can a customized desktop become an installable, verifiable and recoverable distribution?
+
+**Approach:** Arch packaging, private ISO builds, UEFI installation rehearsals, post-boot checks and secondary-disk integrity verification.
+
+**Evidence and limitations:** Alpha 0.3 installed on a virtual qcow2 disk, with ISO-free boot and desktop, network and CLI validation. Not physical hardware certification. No public update channel yet.
+
+<sub>PKGBUILD · pacman · QEMU · GitHub Actions</sub>
+
+### 04 · Mnemosyne, NEXUS and Mobile | Systems integration
+
+**Challenge:** How can persistent context, communication and devices connect without implicitly expanding authority?
+
+**Approach:** Selective memory, scoped operational transport, receipts and an experimental paired Android client. Each component has a distinct responsibility.
+
+**Evidence and limitations:** Integrations in development and validation; experimental mobile alpha. Physical device validation and expanded capabilities are future steps.
+
+<sub>APIs · SQLite · Android · service integration</sub>
+
+<p align="center"><img src="./assets/ecosystem-renascimento.svg" width="100%" alt="Conceptual ecosystem architecture"/></p>
+
+---
+
+<a id="public-projects"></a>
+
+## Public projects | Labs and development
+
+<p align="center"><img src="./assets/portfolio-labs.svg" width="100%" alt="Public GPU, Linux input and backend labs"/></p>
+
+### Radeon RX 580 | Linux stability investigation
+
+**Problem:** investigate freezes and amdgpu power-management behavior.  
+**Artifacts:** shell script, sample systemd service, documented limitations and recovery.  
+**Maturity:** experimental. No universal GPU detection or automated hardware test suite; not a ready-to-install fix.
+
+[View code and documentation ↗](https://github.com/silviodarko/rx580-linux-stability-fix)
+
+### Scroll Lock LED | Linux input events
+
+**Problem:** keyboard indicator not following the expected state in certain Wayland sessions.  
+**Approach:** Python and libevdev to observe events and control supported LEDs, with a sample systemd service.  
+**Maturity:** experimental workaround; dependent on device, permissions and environment. Not a compositor patch.
+
+[View code and documentation ↗](https://github.com/silviodarko/scrolllock-wlroots-fix)
+
+### Flask API | JSON over HTTP
+
+**Problem:** expose simulated spreadsheet data through an HTTP interface.  
+**Approach:** Python, Flask and a JSON endpoint.  
+**Maturity:** educational project, not presented as a production API.
+
+[View repository ↗](https://github.com/silviodarko/API.Flask.COLAB)
+
+### Practical learning | Other documented exercises
+
+| Project | What its README describes |
+| --- | --- |
+| [Image Processing Package](https://github.com/silviodarko/image-processing-package) | Image operations, histograms, similarity and resizing. |
+| [DIO Twitter Python](https://github.com/silviodarko/dio-twitter-py) | Integration exercise using FastAPI, MongoDB, Docker and pytest. |
+| [Python / SQLite / MongoDB](https://github.com/silviodarko/Python.SQLite.MongoDB) | Relational modeling with SQLAlchemy and NoSQL documents with PyMongo. |
+
+Descriptions are based on public READMEs. These are learning projects, not audited tools; they were not executed or certified in this review.
+
+---
+
+<a id="engineering-method"></a>
+
+## Engineering method
+
+<p align="center"><img src="./assets/profile-stack.svg" width="100%" alt="Systems, local intelligence, automation and delivery stack"/></p>
+
+| Stage | Practice |
+| --- | --- |
+| Discovery | Define the problem, constraints, environment and acceptance criteria. |
+| Implementation | Versioned changes, limited scope and reusable components. |
+| Validation | Regression, isolation and distinction between simulation and physical environments. |
+| Delivery | Artifact verification, review and recovery mechanisms. |
+| Evolution | Document limits, fix regressions and measure resources. |
+
+**Principles:** privacy by default, explicit authorization, traceability, recovery and verified compatibility before support claims.
+
+<a id="contact"></a>
+
+## Contact and collaboration
+
+Interests: Linux desktops, local AI, systems integration, automation and user experience.
+
+[LinkedIn](https://www.linkedin.com/in/s%C3%ADlvio-henrique-faria-b23a1b165/) · [GitHub profile](./README.en.md) · [Project catalog](./PROJECTS.md) · [SilvOS website](https://silviodarko.github.io/en.html)
+
+---
+
+<p align="center"><strong>Engineering independence, one commit at a time.</strong><br/>Built in Brazil · Independent engineering</p>
