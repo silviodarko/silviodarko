@@ -71,3 +71,7 @@ The project is not currently accepting installation requests or promising a down
 ---
 
 *SilvOS is a work in progress, built in Brazil with a focus on privacy, craftsmanship and system ownership.*
+
+## Next-generation ecosystem
+
+UNITY Aurora and Vulcano are integration and laboratory candidates, not released products. Aurora desktop validation, authorized task execution, recovery, resource measurements and independent approval remain release gates. UNITY Mobile is experimental. Hardware profiles are a proposed direction, not certified requirements. A public beta follows compatibility, licensing, signed updates and recovery validation.
