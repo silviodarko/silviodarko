@@ -21,6 +21,17 @@ The main development repository is private for now. No public stable ISO has bee
 
 [Read the public SilvOS roadmap](./SILVOS_ROADMAP.md)
 
+## SilvOS as a systems engineering case study
+
+| Track | Engineering work | Evidence and limit |
+| --- | --- | --- |
+| Aurora / UNITY | Interface, streaming, memory, audio and cancellation integration | Lab build and rehearsals; final desktop validation pending |
+| Vulcano | Sequential execution, revision verification, receipts and recovery | Isolated rehearsals; continuous physical production pending |
+| Distribution | ISO, packaging, UEFI installation and safe updates | Alpha 0.3 in VM; public channel not released |
+| Mobile | Android client and scoped pairing | Experimental alpha; physical device validation pending |
+
+The central contribution is turning prototypes into verifiable components, preserving privacy and documenting the distinction between code, laboratory validation and real use.
+
 ## Selected public projects
 
 | Project | Technical contribution | Status |

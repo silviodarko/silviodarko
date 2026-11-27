@@ -21,6 +21,17 @@ O repositório principal é privado durante o desenvolvimento. Não existe ISO p
 
 [Roadmap público do SilvOS](./SILVOS_ROADMAP.md)
 
+## SilvOS como estudo de engenharia de sistemas
+
+| Frente | Trabalho técnico | Evidência e limite |
+| --- | --- | --- |
+| Aurora / UNITY | Integração de interface, streaming, memória, áudio e cancelamento | Ensaios e montagem em laboratório; desktop final pendente |
+| Vulcano | Execução sequencial, verificação de revisões, recibos e recuperação | Ensaios isolados; produção física contínua pendente |
+| Distribuição | ISO, empacotamento, instalação UEFI e atualização segura | Alpha 0.3 em VM; canal público não liberado |
+| Mobile | Cliente Android e pareamento de escopo restrito | Alpha experimental; validação física no aparelho pendente |
+
+A contribuição central é transformar protótipos em componentes verificáveis, preservar a privacidade e documentar a diferença entre código, laboratório e uso real.
+
 ## Projetos públicos selecionados
 
 | Projeto | Contribuição técnica | Maturidade |
