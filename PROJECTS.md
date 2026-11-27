@@ -27,6 +27,16 @@ The main SilvOS codebase remains private. UNITY, Aurora, Vulcano, Mnemosyne and 
 | --- | --- |
 | [Flask API](https://github.com/silviodarko/API.Flask.COLAB) | Exercício HTTP e JSON / HTTP and JSON learning project |
 
+## Formação prática documentada / Documented learning work
+
+| Projeto / Project | Área / Area |
+| --- | --- |
+| [Image Processing Package](https://github.com/silviodarko/image-processing-package) | Processamento de imagens / Image processing |
+| [DIO Twitter Python](https://github.com/silviodarko/dio-twitter-py) | Exercício FastAPI, MongoDB, Docker / Learning exercise |
+| [Python / SQLite / MongoDB](https://github.com/silviodarko/Python.SQLite.MongoDB) | Modelagem relacional e NoSQL / Relational and NoSQL modeling |
+
+Descrições baseadas nos READMEs; não constituem auditoria de código nem recomendação de uso. / Descriptions based on READMEs, not code audits or usage recommendations.
+
 ## Histórico de aprendizagem / Learning archive
 
 Outros repositórios representam estudos anteriores de Python, JavaScript, SQL, dados e infraestrutura. Não são automaticamente ferramentas mantidas ou recomendadas para produção. Conteúdo, dependências, licenças e exposição de dados precisam ser revisados antes de promover projetos adicionais.
