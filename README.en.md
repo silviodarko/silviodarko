@@ -1,7 +1,7 @@
 <p align="right"><a href="./README.md">Português</a> · <strong>English</strong></p>
 
 <p align="center">
-  <img src="./assets/profile-header-glass-v2.svg" width="100%" alt="Sílvio Henrique | Founder & Systems Builder | SilvOS" />
+  <img src="./assets/renascimento-aurora.svg" width="100%" alt="Sílvio Henrique | Founder & Systems Builder | SilvOS" />
 </p>
 
 <p align="center">
@@ -33,7 +33,7 @@ I aim to turn technical experiments into tools that are **well designed, reprodu
 | :--- | :--- |
 | **Desktop** | Arch Linux · Wayland · Niri / Lniri · Noctalia · Kitty |
 | **User experience** | Liquid Glass · transparency & blur · GTK / CSS · Qt / QML interfaces |
-| **Jarvis, local AI** | Qwen3 · llama.cpp · Whisper · Piper · Kokoro ONNX experiments |
+| **UNITY, local AI** | Qwen3 · llama.cpp · Whisper · Piper · Kokoro ONNX experiments |
 | **Integration & automation** | Python · Bash · JavaScript · systemd user services · GitHub API |
 | **Secure bridge** | authorized actions · input validation · SHA-256 · backups & rollback |
 | **Distribution engineering** | PKGBUILD · pacman · GitHub Actions · isolated testing · lab-only GPG signing |
@@ -53,9 +53,21 @@ I aim to turn technical experiments into tools that are **well designed, reprodu
 
 **Alpha 0.3 milestone (November 2026):** the **private installable ISO** completed installation on a disposable qcow2 disk, booted from its installed disk in QEMU UEFI **without the ISO**, and passed Niri/Wayland, Noctalia, network, `silvos-cli` and secondary-disk SHA-256 checks. This is **not physical-hardware certification, a stable release or a public download**. See the [public roadmap](./SILVOS_ROADMAP.md).
 
-**Official SilvOS website:** [silviodarko.github.io](https://silviodarko.github.io/) · Liquid Glass, Jarvis and public roadmap.
+**Official SilvOS website:** [silviodarko.github.io](https://silviodarko.github.io/) · Liquid Glass, UNITY and public roadmap.
 
 **Public roadmap:** [SilvOS development milestones](./SILVOS_ROADMAP.md) · high-level plans, no private implementation details.
+
+### SilvOS ecosystem · next generation
+
+| Component | Purpose | Maturity |
+| :--- | :--- | :--- |
+| **UNITY Aurora** | Local assistant, Glass interface, conversation and authorized tools | Integration and validation in progress |
+| **VULCANO** | Engineering task execution, tests and verifiable receipts | Lab candidate; continuous production not yet validated |
+| **Mnemosyne** | Persistent memory and context retrieval | Integrations in development |
+| **NEXUS** | Scoped operational communication | Development and validation |
+| **UNITY Mobile** | Android client with pairing and restricted access | Experimental alpha |
+
+The priority is consolidating existing components, measuring resources, validating recovery and keeping the owner in control. Hardware compatibility will be established through tests, not assumed.
 
 ### From Alpha 0.3 to `silvos update`
 
