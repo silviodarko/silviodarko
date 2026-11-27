@@ -55,7 +55,7 @@ These technologies include current use, research and integration, not a certifie
 | [Scroll Lock wlroots Fix](https://github.com/silviodarko/scrolllock-wlroots-fix) | Linux keyboard events, Python and systemd; experimental |
 | [Flask API](https://github.com/silviodarko/API.Flask.COLAB) | HTTP API and JSON; educational |
 
-[Full portfolio](./PORTFOLIO.en.md) · [All repositories](https://github.com/silviodarko?tab=repositories)
+[Full portfolio](./PORTFOLIO.en.md) · [Project catalog](./PROJECTS.md) · [All repositories](https://github.com/silviodarko?tab=repositories)
 
 ## Community and development
 
