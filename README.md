@@ -1,7 +1,7 @@
 <p align="right"><strong>Português</strong> · <a href="./README.en.md">English</a></p>
 
 <p align="center">
-  <img src="./assets/profile-header-glass-v2.svg" width="100%" alt="Sílvio Henrique | Founder & Systems Builder | SilvOS" />
+  <img src="./assets/renascimento-aurora.svg" width="100%" alt="Sílvio Henrique | Founder & Systems Builder | SilvOS" />
 </p>
 
 <p align="center">
@@ -33,7 +33,7 @@ Meu objetivo é transformar experimentação técnica em produtos **bem desenhad
 | :--- | :--- |
 | **Desktop** | Arch Linux · Wayland · Niri / Lniri · Noctalia · Kitty |
 | **Design & experience** | Liquid Glass · transparência e blur · GTK / CSS · interfaces Qt / QML |
-| **Jarvis, IA local** | Qwen3 · llama.cpp · Whisper · Piper · experimentos com Kokoro ONNX |
+| **UNITY, IA local** | Qwen3 · llama.cpp · Whisper · Piper · experimentos com Kokoro ONNX |
 | **Integração e automação** | Python · Bash · JavaScript · systemd user · GitHub API |
 | **Ponte segura** | ações autorizadas · validação de comandos · SHA-256 · backups e rollback |
 | **Engenharia de distribuição** | PKGBUILD · pacman · GitHub Actions · testes isolados · assinatura GPG em laboratório |
@@ -53,9 +53,21 @@ Meu objetivo é transformar experimentação técnica em produtos **bem desenhad
 
 **Marco Alpha 0.3 (novembro de 2026):** a **ISO instalável privada** concluiu a instalação num disco virtual qcow2, iniciou pelo próprio disco em QEMU UEFI **sem a ISO** e passou por testes de Niri/Wayland, Noctalia, rede, `silvos-cli` e SHA-256 do disco sentinela. O teste privado foi concluído com sucesso; isso **não é homologação para hardware físico, release estável nem download público**. [Veja os próximos passos](./SILVOS_ROADMAP.md).
 
-**Site oficial do SilvOS:** [silviodarko.github.io](https://silviodarko.github.io/) · Liquid Glass, Jarvis e roadmap público.
+**Site oficial do SilvOS:** [silviodarko.github.io](https://silviodarko.github.io/) · Liquid Glass, UNITY e roadmap público.
 
 **Roadmap público:** [SilvOS development milestones](./SILVOS_ROADMAP.md) · versão resumida, sem detalhes privados.
+
+### Ecossistema SilvOS · nova geração
+
+| Componente | Propósito | Maturidade |
+| :--- | :--- | :--- |
+| **UNITY Aurora** | Assistente local, interface Glass, conversação e ferramentas autorizadas | Integração e homologação em andamento |
+| **VULCANO** | Execução de tarefas de engenharia, testes e recibos verificáveis | Candidata em laboratório; produção contínua ainda não homologada |
+| **Mnemosyne** | Memória persistente e recuperação de contexto | Integrações em desenvolvimento |
+| **NEXUS** | Comunicação operacional com escopo autorizado | Desenvolvimento e validação |
+| **UNITY Mobile** | Cliente Android com pareamento e acesso restrito | Alpha experimental |
+
+A prioridade é consolidar componentes existentes, medir recursos, validar recuperação e manter o proprietário no controle. A futura compatibilidade com diferentes GPUs e capacidades de memória será comprovada por testes, não presumida.
 
 ### Da Alpha 0.3 ao `silvos update`
 
